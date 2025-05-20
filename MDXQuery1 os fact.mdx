@@ -1,0 +1,28 @@
+roll up
+SELECT 
+    [Measures].[Total Spending] ON COLUMNS,  
+    [Store].[Region Name].MEMBERS ON ROWS  
+FROM [fact constellation schema]
+drill down
+SELECT 
+    [Measures].[Total Spending] ON COLUMNS,  
+    [Product].[Product Name].MEMBERS ON ROWS  
+FROM [fact constellation schema]
+slice
+SELECT 
+    [Measures].[Total Spending] ON COLUMNS  
+FROM [fact constellation schema]  
+WHERE ([Time].[Year].[2023])
+
+dice
+SELECT 
+    [Measures].[Total Spending] ON COLUMNS,  
+    [Store].[Region Name].MEMBERS ON ROWS  
+FROM [fact constellation schema]  
+pivot
+
+SELECT  
+    [Time].[Year].MEMBERS ON COLUMNS,  
+    [Store].[Region Name].MEMBERS ON ROWS  
+FROM [fact constellation schema]  
+WHERE ([Measures].[Total Spending])

@@ -1,0 +1,64 @@
+--Roll Up Store-wise Sales to State-wise Sales
+
+
+SELECT 
+   {[Measures].[Total Spending], [Measures].[salesfact count]} ON COLUMNS,
+   NON EMPTY 
+   CROSSJOIN(
+      [Store].[Store Name].[Store Name].Members,
+      CROSSJOIN(
+         [Store].[Region Name].[Region Name].Members,
+         CROSSJOIN(
+            [Product].[Product Name].[Product Name].Members,
+            CROSSJOIN(
+               [Product].[Category ID].[Category ID].Members,
+               CROSSJOIN(
+                  [Customer].[Age Group].[Age Group].Members,
+                  CROSSJOIN(
+                     [Time].[Year].[Year].Members,
+                     [Time].[Quarter].[Quarter].Members
+                  )
+               )
+            )
+         )
+      )
+   ) ON ROWS
+FROM [snow flake schema]
+
+
+SELECT 
+    [Measures].[Total Spending] ON COLUMNS,  
+    NON EMPTY
+    CROSSJOIN(
+        [Store].[Store Name].[Store Name].Members,
+        CROSSJOIN(
+            [Customer].[Age Group].[Age Group].Members,
+            CROSSJOIN(
+                [Time].[Year].[Year].Members,
+                [Time].[Month].[Month].Members
+            )
+        )
+    ) 
+    ON ROWS  
+FROM [snow flake schema]
+
+
+
+--Side  Show only sales for stores in New York
+SELECT 
+    {[Measures].[Sales Amount]} ON COLUMNS  
+FROM [snow flake schema]  
+WHERE ([Store Dim].[City].[New York]);
+
+--DICE sales for stores in New York & Chicago, only for Electronics & Clothing
+SELECT 
+    {[Measures].[Sales Amount]} ON COLUMNS, 
+    {[Store Dim].[City].[New York], [Store Dim].[City].[Chicago]} *  
+    {[Product Dim].[Category Name].[Electronics], [Product Dim].[Category Name].[Clothing]} ON ROWS  
+FROM [snow flake schema]  ;
+
+--PIVOT Show Stores as Columns, Cities as Rows
+SELECT 
+    {[Store Dim].[Store Name].Members} ON COLUMNS,  
+    {[Store Dim].[City].Members} ON ROWS
+FROM [snow flake schema];

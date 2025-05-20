@@ -1,0 +1,61 @@
+roll  up
+
+SELECT 
+  {[Measures].[Total Spending], [Measures].[Salesfact Count]} ON COLUMNS,
+  NON EMPTY
+    CROSSJOIN(
+      [Time].[Year].Children,
+      CROSSJOIN(
+        [Product].[Product Name].Children,
+        CROSSJOIN(
+          [Store].[Store Name].Children,
+          [Customer].[Age Group].Children
+        )
+      )
+    )
+  ON ROWS
+FROM [star schema]
+
+
+drill down
+
+SELECT 
+    {[Measures].[Total Spending], [Measures].[Salesfact Count]} ON COLUMNS,  
+    NON EMPTY
+        CROSSJOIN(
+            [Time].[Month].Children,
+            CROSSJOIN(
+                [Product].[Product Name].Children,
+                CROSSJOIN(
+                    [Store].[Store Name].Children,
+                    [Customer].[Age Group].Children
+                )
+            )
+        ) ON ROWS  
+FROM [star schema]
+
+SELECT 
+    {[Measures].[Total Spending],[Measures].[Salesfact Count]} ON COLUMNS,  
+    {[Time].[Month].Members} ON ROWS  
+FROM [star schema]
+slice
+SELECT 
+    {[Measures].[Total Spending]} ON COLUMNS, 
+    NONEMPTY(
+     [Customer].[Age Group].MEMBERS    
+    ) ON ROWS
+FROM [star schema]  
+WHERE ([Time].[Year].[2024])
+
+dice
+SELECT 
+    {[Measures].[Total Spending]} ON COLUMNS,  
+    {[Time].[Year].[2024]} * [Customer].[Gender].MEMBERS ON ROWS  
+FROM [star schema]
+
+pivot
+SELECT 
+    {[Customer].[Age Group].Members} ON COLUMNS,  
+    {[Time].[Year].Members} ON ROWS  
+FROM [star schema]
+WHERE [Measures].[Total Spending]
