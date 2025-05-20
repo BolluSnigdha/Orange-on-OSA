@@ -1,0 +1,81 @@
+Category Name,Product Name,Brand,Price,Region Name,Store Name,Age Group,Gender,Shopping Frequency,Purchase Date,Total Spending,Order Quantity,Order Cost
+Electronics,Smartphone,Samsung,50000.0,North,Reliance Digital,18-24,Female,Weekly,2024-01-15,50000.0,100.0,5000000.0
+Electronics,Laptop,Dell,70000.0,South,Croma,25-34,Male,Monthly,2024-02-20,70000.0,,
+Clothing,T-shirt,Nike,1500.0,East,Big Bazaar,35-44,Female,Occasionally,2024-03-10,1500.0,,
+Home Appliances,Refrigerator,LG,30000.0,West,DMart,18-24,Male,Rarely,2024-04-25,30000.0,,
+Books,Book - Data Science,O'Reilly,2500.0,Central,Flipkart Warehouse,45-54,Female,Daily,2024-05-30,2500.0,200.0,500000.0
+Beauty & Personal Care,Perfume,Dior,5000.0,North-East,Amazon Hub,25-34,Male,Weekly,2024-06-05,5000.0,150.0,750000.0
+Sports & Outdoors,Basketball,Spalding,2000.0,South-West,Shoppers Stop,35-44,Female,Monthly,2024-07-14,2000.0,,
+Toys,Toy Car,Hot Wheels,800.0,North-West,Lifestyle,55-64,Male,Occasionally,2024-08-21,800.0,500.0,400000.0
+Home Appliances,Microwave Oven,Samsung,12000.0,South-East,Decathlon,65+,Female,Rarely,2024-09-29,12000.0,50.0,600000.0
+Jewelry,Gold Necklace,Tanishq,80000.0,Metro,Tata Croma,18-24,Male,Daily,2024-10-11,80000.0,30.0,2400000.0
+Automotive,Car Battery,Exide,10000.0,Rural North,Metro Mall,25-34,Female,Weekly,2024-11-17,10000.0,,
+Health,Vitamin Supplements,Himalaya,1500.0,Rural South,Village Mart,35-44,Male,Monthly,2024-12-24,1500.0,75.0,112500.0
+Music & Instruments,Guitar,Yamaha,25000.0,Coastal,Local Bazaar,45-54,Female,Occasionally,2023-10-10,25000.0,,
+Gaming,Gaming Console,Sony,40000.0,Mountain,Fashion Hub,55-64,Male,Rarely,2023-12-15,40000.0,40.0,1600000.0
+Gardening,Flower Pot,GardenEase,700.0,Urban,Trendz,65+,Female,Daily,2023-09-07,700.0,90.0,63000.0
+Home Appliances,Microwave Oven,Samsung,12597.27045115439,South-East,Decathlon,65+,Female,Rarely,2024-10-01,13123.485249971163,39.0,491293.54759502126
+Jewelry,Gold Necklace,Tanishq,79699.44033463941,Metro,Tata Croma,18-24,Male,Daily,2024-11-05,77318.67128667327,61.0,4861665.860413004
+Gaming,Gaming Console,Sony,43439.199741384495,Mountain,Fashion Hub,55-64,Male,Rarely,2023-12-01,38596.83278488399,88.0,3822649.5772418357
+Automotive,Car Battery,Exide,10983.57196757846,Rural North,Metro Mall,25-34,Female,Weekly,2024-11-18,10539.000789358188,74.0,812784.325600806
+Electronics,Smartphone,Samsung,52145.13334261616,North,Reliance Digital,18-24,Female,Weekly,2023-12-30,48349.78245335963,77.0,4015175.267381444
+Automotive,Car Battery,Exide,9532.967115057116,Rural North,Metro Mall,25-34,Female,Weekly,2024-10-24,9494.46078499768,96.0,915164.8430454831
+Books,Book - Data Science,O'Reilly,2415.6411626646363,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-15,2658.7470464953535,61.0,147354.1109225428
+Home Appliances,Microwave Oven,Samsung,12201.691056121954,South-East,Decathlon,65+,Female,Rarely,2024-10-07,11159.306642144456,13.0,158621.9837295854
+Books,Book - Data Science,O'Reilly,2294.8639647005652,Central,Flipkart Warehouse,45-54,Female,Daily,2024-05-27,2338.5751525945684,13.0,29833.231541107347
+Home Appliances,Refrigerator,LG,32029.64454297844,West,DMart,18-24,Male,Rarely,2024-04-19,30454.44367960189,85.0,2722519.7861531675
+Jewelry,Gold Necklace,Tanishq,86354.20618335708,Metro,Tata Croma,18-24,Male,Daily,2024-11-04,72733.94781286507,49.0,4231356.102984496
+Gardening,Flower Pot,GardenEase,686.1677633990207,Urban,Trendz,65+,Female,Daily,2023-09-09,730.3785887129977,16.0,10978.684214384331
+Home Appliances,Microwave Oven,Samsung,11178.92816413713,South-East,Decathlon,65+,Female,Rarely,2024-09-10,12128.05411173328,74.0,827240.6841461477
+Sports & Outdoors,Basketball,Spalding,1850.3571937935656,South-West,Shoppers Stop,35-44,Female,Monthly,2024-06-18,2162.1941165068824,61.0,112871.78882140749
+Gaming,Gaming Console,Sony,41342.94345056915,Mountain,Fashion Hub,55-64,Male,Rarely,2024-01-02,36188.08504550496,91.0,3762207.854001793
+Electronics,Smartphone,Samsung,47336.358282398796,North,Reliance Digital,18-24,Female,Weekly,2024-02-05,54473.74401354484,20.0,946727.1656479759
+Gardening,Flower Pot,GardenEase,686.3397721091668,Urban,Trendz,65+,Female,Daily,2023-09-24,642.7594379979121,100.0,68633.97721091668
+Electronics,Smartphone,Samsung,47355.01783794684,North,Reliance Digital,18-24,Female,Weekly,2023-12-17,51023.718584036316,34.0,1610070.6064901927
+Music & Instruments,Guitar,Yamaha,22516.10468553163,Coastal,Local Bazaar,45-54,Female,Occasionally,2023-10-26,25381.067759658643,87.0,1958901.107641252
+Sports & Outdoors,Basketball,Spalding,1883.5306309181417,South-West,Shoppers Stop,35-44,Female,Monthly,2024-07-25,2045.0860939978916,75.0,141264.79731886063
+Books,Book - Data Science,O'Reilly,2615.245176474188,Central,Flipkart Warehouse,45-54,Female,Daily,2024-05-09,2654.1698679926008,5.0,13076.225882370942
+Jewelry,Gold Necklace,Tanishq,77281.00215511964,Metro,Tata Croma,18-24,Male,Daily,2024-11-10,80265.2810820887,24.0,1854744.0517228714
+Sports & Outdoors,Basketball,Spalding,2103.7143214463686,South-West,Shoppers Stop,35-44,Female,Monthly,2024-07-18,1954.7339000667675,17.0,35763.14346458827
+Toys,Toy Car,Hot Wheels,844.3610515212131,North-West,Lifestyle,55-64,Male,Occasionally,2024-07-26,749.0360170019746,73.0,61638.356761048555
+Home Appliances,Microwave Oven,Samsung,11654.489426480259,South-East,Decathlon,65+,Female,Rarely,2024-09-19,12572.80173100914,33.0,384598.15107384854
+Home Appliances,Microwave Oven,Samsung,12757.007424951196,South-East,Decathlon,65+,Female,Rarely,2024-09-03,11995.991740887193,57.0,727149.4232222182
+Jewelry,Gold Necklace,Tanishq,85398.41566712409,Metro,Tata Croma,18-24,Male,Daily,2024-10-24,74126.76587658832,91.0,7771255.825708292
+Sports & Outdoors,Basketball,Spalding,1999.5258515650194,South-West,Shoppers Stop,35-44,Female,Monthly,2024-08-11,1843.4423584056854,73.0,145965.3871642464
+Books,Book - Data Science,O'Reilly,2378.0036936985803,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-23,2709.068030305434,77.0,183106.2844147907
+Books,Book - Data Science,O'Reilly,2666.3113828063956,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-17,2747.2764764915837,68.0,181309.1740308349
+Gaming,Gaming Console,Sony,43383.1627210431,Mountain,Fashion Hub,55-64,Male,Rarely,2024-01-08,37614.254189636515,49.0,2125774.973331112
+Gardening,Flower Pot,GardenEase,647.210698524546,Urban,Trendz,65+,Female,Daily,2023-09-20,692.3366480095999,67.0,43363.116801144584
+Electronics,Smartphone,Samsung,51575.41574068387,North,Reliance Digital,18-24,Female,Weekly,2024-01-10,50316.41781580803,66.0,3403977.4388851356
+Gaming,Gaming Console,Sony,41998.93686873472,Mountain,Fashion Hub,55-64,Male,Rarely,2023-12-26,40642.88788338192,100.0,4199893.686873472
+Books,Book - Data Science,O'Reilly,2627.1033246828424,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-19,2404.9754698539596,20.0,52542.06649365685
+Books,Book - Data Science,O'Reilly,2534.714569699887,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-29,2258.5061212371756,100.0,253471.45696998868
+Toys,Toy Car,Hot Wheels,877.6350026285888,North-West,Lifestyle,55-64,Male,Occasionally,2024-07-28,724.9125613564905,86.0,75476.61022605863
+Health,Vitamin Supplements,Himalaya,1525.1740498064323,Rural South,Village Mart,35-44,Male,Monthly,2025-01-21,1442.1155110356478,31.0,47280.3955439994
+Electronics,Smartphone,Samsung,45319.56771250673,North,Reliance Digital,18-24,Female,Weekly,2024-02-14,52402.95002818121,57.0,2583215.3596128835
+Home Appliances,Refrigerator,LG,29832.0839209267,West,DMart,18-24,Male,Rarely,2024-05-04,29932.852564071054,89.0,2655055.468962476
+Jewelry,Gold Necklace,Tanishq,73344.9308494054,Metro,Tata Croma,18-24,Male,Daily,2024-10-15,77380.24907115605,12.0,880139.1701928647
+Books,Book - Data Science,O'Reilly,2397.613433201919,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-11,2687.3243644841305,36.0,86314.0835952691
+Health,Vitamin Supplements,Himalaya,1528.750658697885,Rural South,Village Mart,35-44,Male,Monthly,2025-01-14,1352.2574996667759,36.0,55035.02371312386
+Gardening,Flower Pot,GardenEase,649.1591454411953,Urban,Trendz,65+,Female,Daily,2023-09-19,644.5142667682863,2.0,1298.3182908823906
+Gardening,Flower Pot,GardenEase,736.2958397841898,Urban,Trendz,65+,Female,Daily,2023-09-25,669.6890921229717,67.0,49331.82126554071
+Sports & Outdoors,Basketball,Spalding,2056.696957587685,South-West,Shoppers Stop,35-44,Female,Monthly,2024-08-07,2182.072964001662,77.0,158365.66573425176
+Gaming,Gaming Console,Sony,39445.66280261135,Mountain,Fashion Hub,55-64,Male,Rarely,2024-01-01,43230.19081578397,98.0,3865674.954655912
+Home Appliances,Refrigerator,LG,28096.254305278904,West,DMart,18-24,Male,Rarely,2024-04-26,27084.622318579568,60.0,1685775.2583167343
+Electronics,Smartphone,Samsung,51094.04248668019,North,Reliance Digital,18-24,Female,Weekly,2024-01-05,47382.31007977375,41.0,2094855.7419538877
+Beauty & Personal Care,Perfume,Dior,4974.831452371876,North-East,Amazon Hub,25-34,Male,Weekly,2024-05-14,4777.5027356515175,66.0,328338.87585654383
+Electronics,Laptop,Dell,72509.76113858455,South,Croma,25-34,Male,Monthly,2024-03-17,72126.98308713669,80.0,5800780.891086765
+Clothing,T-shirt,Nike,1422.1115847749252,East,Big Bazaar,35-44,Female,Occasionally,2024-03-26,1401.0288305639153,95.0,135100.6005536179
+Jewelry,Gold Necklace,Tanishq,73491.83312419124,Metro,Tata Croma,18-24,Male,Daily,2024-10-10,79602.09052164109,41.0,3013165.158091841
+Electronics,Smartphone,Samsung,49107.809626025286,North,Reliance Digital,18-24,Female,Weekly,2023-12-18,46591.06098540796,32.0,1571449.9080328092
+Books,Book - Data Science,O'Reilly,2590.578731308892,Central,Flipkart Warehouse,45-54,Female,Daily,2024-06-02,2330.8658209484406,27.0,69945.62574534009
+Electronics,Smartphone,Samsung,46956.294186967425,North,Reliance Digital,18-24,Female,Weekly,2024-01-22,46235.44574914651,21.0,986082.1779263159
+Toys,Toy Car,Hot Wheels,758.5964902803129,North-West,Lifestyle,55-64,Male,Occasionally,2024-08-02,822.5396933722423,69.0,52343.15782934159
+Electronics,Smartphone,Samsung,47863.82646919373,North,Reliance Digital,18-24,Female,Weekly,2024-01-11,52049.86564841804,50.0,2393191.3234596862
+Automotive,Car Battery,Exide,9022.126465496702,Rural North,Metro Mall,25-34,Female,Weekly,2024-11-24,9721.521323217514,82.0,739814.3701707296
+Electronics,Smartphone,Samsung,48066.84943204932,North,Reliance Digital,18-24,Female,Weekly,2023-12-18,46614.89392139691,42.0,2018807.6761460714
+Gaming,Gaming Console,Sony,39784.356763787255,Mountain,Fashion Hub,55-64,Male,Rarely,2023-12-29,37530.148247642486,56.0,2227923.978772086
+Music & Instruments,Guitar,Yamaha,25455.45341450201,Coastal,Local Bazaar,45-54,Female,Occasionally,2023-09-10,25785.8449944809,35.0,890940.8695075704
+Beauty & Personal Care,Perfume,Dior,5090.84010965504,North-East,Amazon Hub,25-34,Male,Weekly,2024-07-03,4698.393672318852,23.0,117089.32252206591
+Toys,Toy Car,Hot Wheels,782.1657253677078,North-West,Lifestyle,55-64,Male,Occasionally,2024-09-20,863.8160230691359,30.0,23464.971761031233
+Sports & Outdoors,Basketball,Spalding,1845.7913307793392,South-West,Shoppers Stop,35-44,Female,Monthly,2024-08-09,2047.8616015184427,22.0,40607.40927714546
